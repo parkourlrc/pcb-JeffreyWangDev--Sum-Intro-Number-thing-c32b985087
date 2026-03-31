@@ -1,0 +1,3 @@
+[submodule "libs/hggh-kicad-libraries"]
+	path = libs/hggh-kicad-libraries
+	url = https://github.com/hggh/kicad-libraries.git
