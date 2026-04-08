@@ -753,13 +753,17 @@
         "uuid": "eb0cbc57-a50b-4455-8dae-5ed623a9c59c"
       }
     ],
-    "used_designators": "U6,Q3,R10,J1,#PWR20-21,D30",
+    "used_designators": "D1-29,#PWR1-38,C1-20,CH1-25,R1-17,J1-3,Q1-3,U1-6,Y1",
     "variants": []
   },
   "sheets": [
     [
       "eb0cbc57-a50b-4455-8dae-5ed623a9c59c",
       "calc"
+    ],
+    [
+      "8d08e525-4234-4c57-9e7e-fbd7b272f5ee",
+      "RP2040"
     ]
   ],
   "text_variables": {},
