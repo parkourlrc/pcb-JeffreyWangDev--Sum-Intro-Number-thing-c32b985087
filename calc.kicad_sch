@@ -4830,6 +4830,12 @@
 		(uuid "134e54ad-315b-40cd-b8bc-f4e0c388fdd5")
 	)
 	(junction
+		(at 48.26 34.29)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "195818fe-9152-421e-9a46-115ba03a2aac")
+	)
+	(junction
 		(at 76.2 113.03)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -4876,6 +4882,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "48896c0b-1950-4d09-9b8f-35a32991d890")
+	)
+	(junction
+		(at 48.26 36.83)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "4d47c98b-6506-4201-ac77-04eb74ca1ea8")
 	)
 	(junction
 		(at 38.1 161.29)
@@ -5383,7 +5395,7 @@
 	)
 	(wire
 		(pts
-			(xy 43.18 34.29) (xy 53.34 34.29)
+			(xy 43.18 34.29) (xy 48.26 34.29)
 		)
 		(stroke
 			(width 0)
@@ -5510,6 +5522,16 @@
 			(type default)
 		)
 		(uuid "4101710e-a584-4bfd-a21b-9609f868e626")
+	)
+	(wire
+		(pts
+			(xy 48.26 36.83) (xy 48.26 39.37)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "43088363-d380-40f4-8b2f-bc35a2c95c8d")
 	)
 	(wire
 		(pts
@@ -5793,6 +5815,16 @@
 	)
 	(wire
 		(pts
+			(xy 48.26 36.83) (xy 53.34 36.83)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7b8778cb-a868-48bb-aef7-9db505a04cb9")
+	)
+	(wire
+		(pts
 			(xy 21.59 120.65) (xy 21.59 140.97)
 		)
 		(stroke
@@ -5993,6 +6025,16 @@
 	)
 	(wire
 		(pts
+			(xy 48.26 34.29) (xy 53.34 34.29)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b9f919f6-3703-444c-a544-3355da52fc38")
+	)
+	(wire
+		(pts
 			(xy 154.94 91.44) (xy 154.94 93.98)
 		)
 		(stroke
@@ -6030,6 +6072,16 @@
 			(type default)
 		)
 		(uuid "c562bc76-b1ec-4791-8af5-9630e18efaf3")
+	)
+	(wire
+		(pts
+			(xy 48.26 31.75) (xy 48.26 34.29)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c7d84c57-20dc-42da-8606-bdee214edc01")
 	)
 	(wire
 		(pts
@@ -6073,7 +6125,7 @@
 	)
 	(wire
 		(pts
-			(xy 43.18 36.83) (xy 53.34 36.83)
+			(xy 43.18 36.83) (xy 48.26 36.83)
 		)
 		(stroke
 			(width 0)
@@ -6763,7 +6815,7 @@
 			)
 		)
 	)
-	(global_label "GPIO6"
+	(global_label "GPIO5"
 		(shape input)
 		(at 132.08 132.08 90)
 		(fields_autoplaced yes)
@@ -6787,7 +6839,7 @@
 			)
 		)
 	)
-	(global_label "GPIO1"
+	(global_label "GPIO6"
 		(shape input)
 		(at 134.62 132.08 90)
 		(fields_autoplaced yes)
@@ -6811,7 +6863,7 @@
 			)
 		)
 	)
-	(global_label "GPIO4"
+	(global_label "GPIO7"
 		(shape input)
 		(at 137.16 132.08 90)
 		(fields_autoplaced yes)
@@ -7075,7 +7127,7 @@
 			)
 		)
 	)
-	(global_label "GPIO5"
+	(global_label "GPIO4"
 		(shape input)
 		(at 129.54 132.08 90)
 		(fields_autoplaced yes)
@@ -7096,6 +7148,30 @@
 					(size 1.27 1.27)
 				)
 				(justify left)
+			)
+		)
+	)
+	(global_label "GPIO17"
+		(shape input)
+		(at 48.26 39.37 270)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "b554defe-2a11-4ab6-a28d-32d937a54376")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 48.26 49.2495 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
 			)
 		)
 	)
@@ -7123,7 +7199,7 @@
 			)
 		)
 	)
-	(global_label "GPIO7"
+	(global_label "GPIO8"
 		(shape input)
 		(at 209.55 142.24 180)
 		(fields_autoplaced yes)
@@ -7184,6 +7260,30 @@
 		(uuid "e0dc8b74-a7c3-402c-bc04-5a5ba14c3458")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 160.7676 81.28 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+	)
+	(global_label "GPIO16"
+		(shape input)
+		(at 48.26 31.75 90)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "e61f5bcf-4fc0-4d8f-a3e1-01a2a232bed6")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 48.26 21.8705 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7570,7 +7670,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
 			(at 90.17 26.67 0)
 			(hide yes)
 			(show_name no)
@@ -9314,7 +9414,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
 			(at 101.6 26.67 0)
 			(hide yes)
 			(show_name no)
