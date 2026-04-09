@@ -8111,6 +8111,17 @@
 				)
 			)
 		)
+		(property "lcsc" "C16581"
+			(at 63.5 34.29 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "7"
 			(uuid "fca5a292-aadf-496c-87c0-aec86830f564")
 		)
@@ -8393,6 +8404,17 @@
 				)
 			)
 		)
+		(property "lcsc" "C351410"
+			(at 120.65 40.64 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "4"
 			(uuid "53364377-2c7c-494b-ab46-566598c77786")
 		)
@@ -8415,88 +8437,6 @@
 			(project "calc"
 				(path "/eb0cbc57-a50b-4455-8dae-5ed623a9c59c"
 					(reference "U2")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:C_Small")
-		(at 67.31 76.2 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "0eff532f-2472-48d9-94b7-53b67874e527")
-		(property "Reference" "C2"
-			(at 69.85 74.9362 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "C_Small"
-			(at 69.85 77.4762 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" ""
-			(at 67.31 76.2 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 67.31 76.2 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Unpolarized capacitor, small symbol"
-			(at 67.31 76.2 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "2"
-			(uuid "054c5b63-f1f1-4643-829a-9bbc679091b8")
-		)
-		(pin "1"
-			(uuid "2f662d36-cf76-4fba-bb27-ad13e2ea5482")
-		)
-		(instances
-			(project "calc"
-				(path "/eb0cbc57-a50b-4455-8dae-5ed623a9c59c"
-					(reference "C2")
 					(unit 1)
 				)
 			)
@@ -8800,6 +8740,17 @@
 			)
 		)
 		(property "Description" "30V Vds, 5.7A Id, N-Channel MOSFET, SOT-23"
+			(at 219.71 142.24 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "lcsc" "C20917"
 			(at 219.71 142.24 0)
 			(hide yes)
 			(show_name no)
@@ -9455,6 +9406,17 @@
 				)
 			)
 		)
+		(property "lcsc" "C85364"
+			(at 190.5 99.06 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "281505a9-a1dd-4d75-bccb-2bf694d8bfe7")
 		)
@@ -9712,6 +9674,17 @@
 		)
 		(property "LCSC" "C15127"
 			(at 30.48 63.5 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "lcsc" "C15127"
+			(at 30.48 63.5 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11069,88 +11042,6 @@
 	)
 	(symbol
 		(lib_id "Device:R_Small")
-		(at 80.01 76.2 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "51e63007-af1a-4785-8d58-72fc16b232c4")
-		(property "Reference" "R5"
-			(at 82.55 74.9299 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.016 1.016)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "R_Small"
-			(at 82.55 77.4699 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" ""
-			(at 80.01 76.2 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 80.01 76.2 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Resistor, small symbol"
-			(at 80.01 76.2 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "2"
-			(uuid "e5153c9c-2dfe-4f55-8a2a-395c847f94ec")
-		)
-		(pin "1"
-			(uuid "c4398eae-fad9-4bd3-b1c3-c35993bd5b2a")
-		)
-		(instances
-			(project "calc"
-				(path "/eb0cbc57-a50b-4455-8dae-5ed623a9c59c"
-					(reference "R5")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:R_Small")
 		(at 121.92 22.86 0)
 		(unit 1)
 		(body_style 1)
@@ -11813,6 +11704,17 @@
 				)
 			)
 		)
+		(property "lcsc" "C5446"
+			(at 172.72 140.97 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "3bc7702b-ae91-4641-9203-c60942e60cc0")
 		)
@@ -12096,6 +11998,108 @@
 			(project "calc"
 				(path "/eb0cbc57-a50b-4455-8dae-5ed623a9c59c"
 					(reference "#PWR08")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:D_Schottky")
+		(at 163.83 71.12 180)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "5db3f945-5cff-4709-a2f8-2ea03e1e5d1f")
+		(property "Reference" "D27"
+			(at 164.1475 64.77 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "RB160M-30"
+			(at 164.1475 67.31 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Diode_SMD:D_SOD-123"
+			(at 163.83 71.12 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" "https://wmsc.lcsc.com/wmsc/upload/file/pdf/v2/lcsc/2309051412_hongjiacheng-RB160M-30_C7502715.pdf"
+			(at 163.83 71.12 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Schottky diode"
+			(at 163.83 71.12 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC" "C7502715"
+			(at 163.83 71.12 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "lcsc" "C7502715"
+			(at 163.83 71.12 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "672c7be2-de2e-4a73-b6f0-1b105598dcce")
+		)
+		(pin "2"
+			(uuid "1368bc24-0dfa-4c72-a071-a85377b52d48")
+		)
+		(instances
+			(project "calc"
+				(path "/eb0cbc57-a50b-4455-8dae-5ed623a9c59c"
+					(reference "D27")
 					(unit 1)
 				)
 			)
@@ -12906,108 +12910,6 @@
 			(project "calc"
 				(path "/eb0cbc57-a50b-4455-8dae-5ed623a9c59c"
 					(reference "D20")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:D_Schottky")
-		(at 163.83 71.12 180)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "7819e7c1-4761-423f-8a72-e1618149f6b9")
-		(property "Reference" "D27"
-			(at 164.1475 64.77 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "MBRS130LT3G"
-			(at 164.1475 67.31 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Diode_SMD:D_SMB"
-			(at 163.83 71.12 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" "https://www.lcsc.com/datasheet/C51771.pdf?spm=wm.sxq.inf.ggs___wm.ssy.bg.0.xh&lcsc_vid=QFlbUgJSFVNeAlQEFVhcUFECEVVWVVRQQ1IKUV0ET1IxVlNRQ1hdXlFUTlJXUTsOAxUeFF5JWBYZEEoKFBINSQcJGk4%3D"
-			(at 163.83 71.12 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Schottky diode"
-			(at 163.83 71.12 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "LCSC" "C51771"
-			(at 163.83 71.12 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "lcsc" "C51771"
-			(at 163.83 71.12 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "34de6fab-6782-405c-9459-49dd1df981dc")
-		)
-		(pin "2"
-			(uuid "6fcb5920-a1f3-4992-a6c0-fd8cb1b4a910")
-		)
-		(instances
-			(project "calc"
-				(path "/eb0cbc57-a50b-4455-8dae-5ed623a9c59c"
-					(reference "D27")
 					(unit 1)
 				)
 			)
@@ -15442,7 +15344,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "FS8205"
+		(property "Value" "HJ8205"
 			(at 153.67 43.1799 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -15453,7 +15355,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "jeff-lib:SOT95P280X145-6N"
+		(property "Footprint" "Package_TO_SOT_SMD:SOT-23-6"
 			(at 151.13 41.91 0)
 			(hide yes)
 			(show_name no)
@@ -15465,7 +15367,7 @@
 				(justify bottom)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://wmsc.lcsc.com/wmsc/upload/file/pdf/v2/lcsc/2401111808_hongjiacheng-HJ8205_C20069150.pdf"
 			(at 151.13 41.91 0)
 			(hide yes)
 			(show_name no)
@@ -15487,103 +15389,7 @@
 				)
 			)
 		)
-		(property "MF" "Fortune Semiconductor"
-			(at 151.13 41.91 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-			)
-		)
-		(property "MAXIMUM_PACKAGE_HEIGHT" "1.45mm"
-			(at 151.13 41.91 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-			)
-		)
-		(property "Package" "Package"
-			(at 151.13 41.91 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-			)
-		)
-		(property "Price" "None"
-			(at 151.13 41.91 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-			)
-		)
-		(property "Check_prices" "https://www.snapeda.com/parts/FS8205/Fortune+Semiconductor/view-part/?ref=eda"
-			(at 151.13 41.91 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-			)
-		)
-		(property "STANDARD" "IPC-7351B"
-			(at 151.13 41.91 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-			)
-		)
-		(property "PARTREV" "1.9"
-			(at 151.13 41.91 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-			)
-		)
-		(property "SnapEDA_Link" "https://www.snapeda.com/parts/FS8205/Fortune+Semiconductor/view-part/?ref=snap"
-			(at 151.13 41.91 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-			)
-		)
-		(property "MP" "FS8205"
+		(property "MP" "HJ8205 (FS8205)"
 			(at 151.13 41.91 0)
 			(hide yes)
 			(show_name no)
@@ -15607,18 +15413,6 @@
 				(justify bottom)
 			)
 		)
-		(property "Availability" "In Stock"
-			(at 151.13 41.91 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-			)
-		)
 		(property "MANUFACTURER" "Fortune"
 			(at 151.13 41.91 0)
 			(hide yes)
@@ -15631,7 +15425,18 @@
 				(justify bottom)
 			)
 		)
-		(property "LCSC" "C32254"
+		(property "LCSC" "C20069150"
+			(at 151.13 41.91 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "lcsc" "C20069150"
 			(at 151.13 41.91 0)
 			(hide yes)
 			(show_name no)
@@ -17413,7 +17218,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "MBRS130LT3G"
+		(property "Value" "RB160M-30"
 			(at 41.91 65.7224 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -17424,7 +17229,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Diode_SMD:D_SMB"
+		(property "Footprint" "Diode_SMD:D_SOD-123"
 			(at 39.37 64.77 0)
 			(hide yes)
 			(show_name no)
@@ -17435,7 +17240,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "https://www.lcsc.com/datasheet/C51771.pdf?spm=wm.sxq.inf.ggs___wm.ssy.bg.0.xh&lcsc_vid=QFlbUgJSFVNeAlQEFVhcUFECEVVWVVRQQ1IKUV0ET1IxVlNRQ1hdXlFUTlJXUTsOAxUeFF5JWBYZEEoKFBINSQcJGk4%3D"
+		(property "Datasheet" "https://wmsc.lcsc.com/wmsc/upload/file/pdf/v2/lcsc/2309051412_hongjiacheng-RB160M-30_C7502715.pdf"
 			(at 39.37 64.77 0)
 			(hide yes)
 			(show_name no)
@@ -17457,7 +17262,7 @@
 				)
 			)
 		)
-		(property "LCSC" "C51771"
+		(property "LCSC" "C7502715"
 			(at 39.37 64.77 0)
 			(hide yes)
 			(show_name no)
@@ -17468,7 +17273,7 @@
 				)
 			)
 		)
-		(property "lcsc" "C51771"
+		(property "lcsc" "C7502715"
 			(at 39.37 64.77 90)
 			(hide yes)
 			(show_name no)

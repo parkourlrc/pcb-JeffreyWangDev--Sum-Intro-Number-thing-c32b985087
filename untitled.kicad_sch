@@ -5204,6 +5204,17 @@
 				)
 			)
 		)
+		(property "lcsc" "C17588"
+			(at 128.27 78.74 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "4fccd780-c2e5-4c6c-b816-c97cc3f56b1b")
 		)
@@ -5276,6 +5287,17 @@
 			)
 		)
 		(property "Description" "A microcontroller by Raspberry Pi"
+			(at 161.29 106.68 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "lcsc" "C2040"
 			(at 161.29 106.68 0)
 			(hide yes)
 			(show_name no)
@@ -5699,6 +5721,17 @@
 				)
 			)
 		)
+		(property "lcsc" "C17588"
+			(at 128.27 73.66 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "9316c10b-0449-4179-8ccf-211011ea7cd9")
 		)
@@ -5891,7 +5924,7 @@
 				)
 			)
 		)
-		(property "Value" "15p"
+		(property "Value" "33p"
 			(at 30.4863 105.41 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5934,7 +5967,7 @@
 				)
 			)
 		)
-		(property "lcsc" "C1548"
+		(property "lcsc" "C1562"
 			(at 30.48 109.22 0)
 			(hide yes)
 			(show_name no)
@@ -6493,7 +6526,7 @@
 				)
 			)
 		)
-		(property "Value" "15p"
+		(property "Value" "33p"
 			(at 30.4863 91.44 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6536,7 +6569,7 @@
 				)
 			)
 		)
-		(property "lcsc" "C1548"
+		(property "lcsc" "C1562"
 			(at 30.48 95.25 0)
 			(hide yes)
 			(show_name no)
@@ -7750,6 +7783,17 @@
 				)
 			)
 		)
+		(property "lcsc" "C131025"
+			(at 60.96 44.45 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "700a46d6-e028-48de-b50f-c0e6e123cf18")
 		)
@@ -7967,7 +8011,7 @@
 		(fields_autoplaced yes)
 		(uuid "fdc70dce-71d4-4e77-b4e8-366f54086b1a")
 		(property "Reference" "Y1"
-			(at 52.07 97.9168 90)
+			(at 53.34 97.9168 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -7976,8 +8020,8 @@
 				)
 			)
 		)
-		(property "Value" "ABM8-272-T3"
-			(at 52.07 100.4568 90)
+		(property "Value" "X322512MSB4SI"
+			(at 53.34 100.4568 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -7997,7 +8041,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://www.lcsc.com/datasheet/C9002.pdf"
 			(at 41.91 102.87 0)
 			(hide yes)
 			(show_name no)
@@ -8019,7 +8063,7 @@
 				)
 			)
 		)
-		(property "lcsc" "C20625731"
+		(property "lcsc" "C9002"
 			(at 41.91 102.87 0)
 			(hide yes)
 			(show_name no)
